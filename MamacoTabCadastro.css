@@ -1,0 +1,43 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 600px;
+    height: 400px;
+  }
+  td {
+    text-align: center;
+  }
+
+table{
+    border: 2px solid rgb(6, 6, 36);
+}
+tr, td, th{
+    border: 2px solid rgb(6, 6, 36);
+}
+
+th {
+    font-weight: bold;
+  }
+  
+
+td[colspan] {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .cadastrar-btn {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
