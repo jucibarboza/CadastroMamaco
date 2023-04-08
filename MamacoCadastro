@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamaco King Cadastro</title>
+    <link href="TabMamacoCadastro.css" rel="stylesheet" type="text/css">
+   
+      
+  </head>
+  
+  <body>
+    <h1> Papelaria Mamaco King</h1>
+    <h3 legend>CADASTRO</h3 legend>
+  
+      <style> 
+     
+         body{ display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          height: 100vh;
+          margin: 50;}
+
+          #background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("imagnes/papelaria.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover; 
+            opacity: 0.1;
+            z-index: -1; 
+          }  
+        </style>
+    
+        <center>
+        <form>
+          <table>
+            <tr>
+                <td>
+                  
+               
+      
+          
+         
+                <br/>
+            <label for="Nome">Nome:</label>
+            <input type="text" name="nome" id="nome"
+            placeholder="Digite o seu nome"size="30"> <br/><br/>
+        
+            <label for="nasc">Data de Nascimento</label>
+            <input type="date" name="nasc" id="nasc"size="30"><br/><br/>
+        
+            <label for="email">Email</label>
+            <input type="email"
+             placeholder="Digite o seu email"> <br/><br/>
+        
+            <label for="endereço">Endereço</label>
+            <Input type="text"
+            placeholder="Digite o seu endereço"> <br/><br/>
+
+
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado" >
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>            
+              </select><br/><br/>
+
+              <label for="cpf">CPF:</label>
+              <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+              placeholder="Digite o seu CPF"> <br/><br/>
+
+              <label for="senha">Senha</label>
+              <Input type="password" placeholder="Crie uma senha"><br/><br/><br/>             
+         
+                          
+              <input type="button" class="cadastrar-btn" value="Cadastrar">
+
+        
+                      
+            </td>
+            </tr>
+        
+        </table>
+      </form>
+    </center>
+     
+    <div id="background-image"></div>
+    
+      <br/>
+
+      <a href="Mamaco King.html">Voltar</a>
+      
+  </body>
+</html>
